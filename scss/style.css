@@ -86,4 +86,9 @@ nav, header > section {
   max-width: 600px;
   margin: 0 auto !important;
 }
+
+.img-resize {
+  width: 26px !important;
+  height: 22px !important;
+}
 /*# sourceMappingURL=style.css.map */
