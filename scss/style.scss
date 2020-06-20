@@ -70,7 +70,7 @@ nav, header>section {
     z-index: 3;
 }
 
-//btn
+//buttons
 .gold-filled-btn {
     @include filled-btn();
 }
@@ -79,8 +79,17 @@ nav, header>section {
     @include trans-btn();
 }
 
+//colors - text and background
 .gold-text {
     color: $gold !important;
+}
+
+.light-black {
+    background-color: $light-black !important;
+}
+
+.deep-black {
+    background-color: $deep-black;
 }
 
 .text-underline {
@@ -95,12 +104,4 @@ nav, header>section {
 .center-text {
     max-width: 600px;
     margin: 0 auto !important;
-}
-
-.light-black {
-    background-color: $light-black !important;
-}
-
-.deep-black {
-    background-color: $deep-black;
 }
